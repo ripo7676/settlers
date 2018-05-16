@@ -25,10 +25,24 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         main.cpp \
-        mainwindow.cpp
+        mainwindow.cpp \
+    buildingstructure.cpp \
+    EdgeTile.cpp \
+    MetalTile.cpp \
+    PetroleumTile.cpp \
+    player.cpp \
+    ResourceTile.cpp \
+    StoneTile.cpp
 
 HEADERS += \
-        mainwindow.h
+        mainwindow.h \
+    buildingstructure.h \
+    EdgeTile.h \
+    MetalTile.h \
+    PetroleumTile.h \
+    player.h \
+    ResourceTile.h \
+    StoneTile.h
 
 FORMS += \
         mainwindow.ui
